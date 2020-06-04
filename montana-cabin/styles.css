@@ -1,0 +1,31 @@
+/* CSS Document */
+
+p
+{
+	font-weight:normal;
+	font-size:10pt;
+	font-family:arial;
+}
+
+a.navlink
+{
+	font-family: arial;
+	font-size: 9pt;
+	color: #751600;
+	text-decoration: none;
+}
+
+a.navlink:hover
+{
+	text-decoration: underline;
+	color: #751600;
+}
+	 
+a.navon
+{
+	font-family: arial;
+	font-size: 9pt;
+	color: #751600;
+	text-decoration: none;
+	font-weight: bold;
+}
