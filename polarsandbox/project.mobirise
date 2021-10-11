@@ -54,7 +54,15 @@
     "uniqCompNum": 38,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
-    "imageResize": true
+    "imageResize": true,
+    "favicon": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-BT2LGD3X2B\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-BT2LGD3X2B');\n</script>"
   },
   "pages": {
     "index.html": {
@@ -436,7 +444,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>The brain of the<i> Polar Sandbox </i>is a Teensy microcontroller. It was chosen because it's as easy to program as an Arduino, yet runs significantly faster (more than 100X for floating-point calculations). The software that drives the sandbox is very floating-point intensive, both for coordinating the R and Theta stepper motors and for calculating the ball's path, which relies heavily on trig. The steppers are driven using Trinamic TMC2208 controller chips. The advantage of these chips is that they drive the motors at high frequencies, resulting in very quiet operation.</p><p>A custom PCB was fabricated to control the sandbox, having the Teensy, 2 stepper drivers, 2 voltage regulators, and a touchscreen LCD. &nbsp;The CAD software used is from expresspcb.com.</p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>The brain of the<i> Polar Sandbox </i>is a Teensy microcontroller. It was chosen because it's as easy to program as an Arduino, yet runs significantly faster (more than 100X for floating-point calculations). The software that drives the sandbox is very floating-point intensive, both for coordinating the R and Theta stepper motors and for calculating the ball's path, which relies heavily on trig. The steppers are driven using Trinamic TMC2208 controller chips. The advantage of these chips is that they drive the motors at high frequencies, resulting in very quiet operation.</p><p>A custom PCB was fabricated to control the sandbox, having the Teensy, 2 stepper drivers, 2 voltage regulators, and a touchscreen LCD. &nbsp;The PCB CAD software used is from expresspcb.com.</p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "sK8Hl9P9lR",
           "_anchor": "content1-n",
           "_protectedParams": [],
@@ -680,11 +688,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><a href=\"https://github.com/Stan-Reifel/PolarSandbox/tree/main/Software/PolarSandbox\" target=\"_blank\">The C source code is here.</a></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "sKfYZIiVBX",
+          "_anchor": "content1-11",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-11"
+          "_params": {}
         },
         {
           "alias": false,
